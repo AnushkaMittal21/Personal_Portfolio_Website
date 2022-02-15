@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhaina+2:wght@500&family=Quintessential&family=Roboto:wght@300;400&family=Source+Code+Pro&family=Source+Sans+Pro&display=swap');
+
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  transition: all .2s linear;
+  line-height: 1.5;
+}
+
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 16.7rem;
+    background-color: rgb(173, 232, 240);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    justify-content: center;
+  }
+  .sidebar .navbar a {
+    display: block;
+    color: black;
+    padding: 0.8rem;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+    margin-left: 2.2rem;
+    font-weight: bold;
+  }
+  .sidebar .navbar a:hover{
+    color: rgb(235, 66, 94);
+  }
+  .sidebar .navbar img{
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+  }
+  .sidebar .navbar h2{
+    display: block;
+    color: crimson;
+    padding: 1rem;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 2.7rem;
+    align-items: center;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  .sidebar .navbar span{
+    margin-left: 1.5rem;
+  }
+  .sidebar .follow a{
+    margin-top: 0;
+    color: black;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    
+  }
+  .sidebar .follow a:hover{
+    color: rgb(235, 66, 94);
+  }
+  div.content {
+    margin-left: 16.7rem;
+    padding: 1rem 1rem;
+    height: 100%;
+    background-color: rgb(32, 142, 161);
+  }
+
+  /*Home section*/
+  .home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .home img{
+    margin-top: 1rem;
+    margin-right: 4rem;
+    height: 30rem;
+    flex:40rem;
+  }
+  .home .written{
+    flex: 40rem;
+  }
+  .home .hi{
+    color:rgb(12, 7, 85);
+    font-size: 3rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .home .hi span{
+    color: crimson;
+  }
+  .home .text{
+  padding-top: 3rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+
+/*About section*/
+.about .row-1{
+  display: flex;
+  flex-wrap: wrap;
+ padding-top: 9rem;
+  gap: 1.5rem;
+  flex:1 1 50rem;
+}
+.about h1{
+  color:rgb(12, 7, 85);
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.about .who{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-left: 1rem;
+  color: crimson;
+}
+.about .row-1 .aboutMe p span{
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+.about .row-1 .aboutMe{
+  font-size: 1.3rem;
+  font-weight: 1rem;
+}
+.about .row-1 .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+}
+.about .row-1 .box-container{
+  flex:1 1 20rem;
+}
+.about .row-1 .box-container span{
+  color:crimson;
+  font-weight: bold;
+}
+.about .row-1 .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  padding-bottom: 2rem;
+}
+
+.about .row-2 .head h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-left: 1rem;
+  color:rgb(12, 7, 85);
+}
+.about .row-2 .skills .box-container{
+  flex:1 1 40rem;
+  display:flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  padding-bottom: 2rem;
+}
+.about .row-2 .skills .box-container .box{
+  flex:1 1 15rem;
+  background-color: rgb(194, 219, 229);
+  border-radius: .5rem;
+  padding:2.5rem;
+  font-size: 2.5rem;
+}
+.about .row-2 .skills .box-container .box:hover{
+  background-color: aquamarine;
+}
+
+/*Experience section*/
+.Experience .head h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-left: 1rem;
+  color:rgb(12, 7, 85);
+}
+.Experience .box-container .box{
+  text-align: center;
+  border:1px solid white;
+  color: white;
+  background-color: black;
+  border-radius: .5rem;
+  padding: 1rem;
+  line-height: 200%;
+  margin-top: 0.5rem;
+}
+.Experience .box-container .box h3{
+  color: crimson;
+  font-size: 2.5rem;
+}
+.Experience .box-container :hover{
+  background-color: blueviolet
+}
+
+/*Contact Section*/
+.contact .head h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-left: 1rem;
+  color:rgb(12, 7, 85);
+}
+.contact .row form{
+  border-radius: .5rem;
+  border: .1rem solid rgba(0,0,0,.1);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  padding:2rem;
+  text-align: center;
+  width: 40rem;
+  margin: auto;
+}
+.contact .row form:hover{
+  background:yellow ;
+}
+.contact .row form h3{
+  color: crimson;
+  font-size: 3rem;
+}
+.contact .row form .box{
+  width: 100%;
+  margin:.8rem 0;
+  padding:1rem 1.5rem;
+  border-radius: .5rem;
+  border: .1rem solid rgba(0,0,0,.1);
+  font-size: 1.4rem;
+}
+.contact .row form textarea{
+  height: 15rem;
+  resize: none;
+}
+.contact .row form .submit .btn{
+  background-color: yellow;
+  margin-top: 1rem;
+  display: inline-block;
+  padding:.9rem 3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  border-radius: .5rem;
+}
+.contact .row form .submit .btn:hover{
+  background-color: blueviolet;
+}
+
+/* media queries  */
+@media (max-width:700px){
+
+  html{
+      font-size: 55%;
+  }
+  content{
+      padding: 0;
+  }
+}
+  
+@media (max-width:400px){
+
+  html{
+      font-size: 50%;
+  }
+
+  content{
+      width:100%;
+  }
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .experience .box-container .box{
+    padding-right: 0;
+}
+}
