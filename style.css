@@ -185,7 +185,7 @@ body{
   font-size: 2.5rem;
 }
 .about .row-2 .skills .box-container .box:hover{
-  background-color: rgb(236, 100, 236);
+  background-color: rgb(111, 218, 236);
 }
 
 /*Experience section*/
@@ -210,7 +210,7 @@ body{
   font-size: 2.5rem;
 }
 .Experience .box-container :hover{
-  background-color: blueviolet
+  background-color: rgb(12, 7, 85);
 }
 
 /*Contact Section*/
@@ -230,7 +230,7 @@ body{
   margin: auto;
 }
 .contact .row form:hover{
-  background:yellow ;
+  background:rgb(12, 7, 85);
 }
 .contact .row form h3{
   color: crimson;
@@ -258,9 +258,20 @@ body{
   border-radius: .5rem;
 }
 .contact .row form .submit .btn:hover{
-  background-color: blueviolet;
+  background-color: rgb(143, 138, 209);
 }
-
+.contact .followlinks a{
+  color: black;
+  font-size: 2.5rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+.contact .followlinks{
+  margin-left: 33rem;
+}
+.contact .followlinks a:hover{
+  color: rgb(223, 120, 141);
+}
 /* media queries  */
 @media (max-width:700px){
 
